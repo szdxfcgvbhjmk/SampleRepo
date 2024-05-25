@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .style1 {
+        color: blue;
+      }
+      .style2 {
+        background-color: aqua;
+      }
+      .style3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Event handler -->
+    <!-- 1.onclick
+    2.dblClick
+    3.mouseover
+    4.mouseout
+    5.change
+    6.keypress
+    7.keyup
+    8.keydown
+    9.focus
+    10.submit -->
+
+    <!-- <h1 id="head" onclick="ChangeText()">Welcome to js learning</h1>
+    <h2 onclick="this.innerText='back End'">Front End</h2>
+    <h3 onclick="display(this)">HTML 12PM BATCH</h3> -->
+    <h1 id="h1">HTML</h1>
+    <button id="btn">ADD</button>
+    <!-- <input onkeypress="display(this)" /> -->
+    <!-- <button ondblclick="handler()">DBLCLICK</button> -->
+    <!-- <button onmouseover="handler()">DBLCLICK</button> -->
+    <!-- <button onmouseout="handler()">DBLCLICK</button> -->
+    <!-- <button onkeypress="handler()">DBLCLICK</button> -->
+    <script>
+      //   function ChangeText() {
+      //     let h1el = document.getElementById('head');
+      //     h1el.innerText = 'Welcome to dom learning';
+      //   }
+      //   function display(element) {
+      //     element.innerText = 'JS 12PM BATCH';
+      //   }
+      //   function handler() {
+      //     let h1El = document.getElementById('h1');
+      //     h1El.style.backgroundColor = 'red';
+      //   }
+      //   const display = () => {
+      //     console.log(this.value);
+      //   };
+
+      //addEventListener
+
+      // element.addEventLister('event',function())
+      let btn = document.getElementById('btn');
+      //   btn.addEventListener('click', () => {
+      //     alert('hello');
+      //   });
+      //   btn.addEventListener('click', display);
+
+      //   function display() {
+      //     alert('HTML');
+      //   }
+      //   function display() {
+      //     alert('JS');
+      //   }
+      //   function display() {
+      //     alert('React');
+      //   }
+
+      //   btn.addEventListener('click', () => {
+      //     alert('hello-1');
+      //   });
+      //   btn.removeEventListener('click', () => {
+      //     alert('hello-2');
+      //   });
+      //   btn.addEventListener('click', () => {
+      //     alert('hello-3');
+      //   });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Zoho_Puvi_Regular';
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Zoho_Puvi_Medium';
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 26px;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.banner-sec {
+  background-color: #020232;
+}
+.banner-inner-sec {
+  padding: 100px 0;
+  color: #fff;
+}
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.flex-left,
+.flex-right {
+  width: 100%;
+  max-width: 50%;
+}
+.content-sec {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 430px;
+}
+.content-sec p {
+  margin-bottom: 10px;
+}
+.content-sec #btn-1 {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #df3809;
+  color: #fff;
+  margin-right: 5px;
+}
+.content-sec #btn-2 {
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.image-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 550px;
+}
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+}
+.child-1 {
+  opacity: 1;
+  left: 10%;
+  top: 16%;
+}
+.child-2 {
+  opacity: 1;
+  top: 59%;
+  left: 15%;
+}
+.child-3 {
+  opacity: 1;
+  top: 63%;
+  left: 67%;
+}
+@media (max-width: 1080px) {
+  .content-sec {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .content-sec span #btn-2 {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .image-wrap {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .flex-wrap {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .flex-left,
+  .flex-right {
+    max-width: 100%;
+  }
+  .content-sec {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .image-wrap {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 640px) {
+}
